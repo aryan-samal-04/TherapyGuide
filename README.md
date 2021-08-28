@@ -1,6 +1,6 @@
-Program: TherapyGuide - Physical Therapy Administer
-Author:  Aryan Samal
-Version: 1.0
+Program: TherapyGuide - Physical Therapy Administer 
+Author:  Aryan Samal 
+Version: 1.0 
 
 Copyright 2020, This software is confidential and proprietary to the author. Copy, download,
 and reproduction of the software in any form is prohibited unless for academic purposes.
