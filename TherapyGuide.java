@@ -10,14 +10,14 @@
 //
 
 import javax.imageio.ImageIO;
-import javax.swing.*;
 import javax.swing.border.LineBorder;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import javax.swing.*;
+import java.awt.*;
 
 //
 // TherapyGuide Class:
@@ -217,29 +217,29 @@ public class TherapyGuide extends JFrame implements ActionListener {
         mLeftButtonPanel.add(mDummyLabel1);
         mLeftButtonPanel.add(mDummyLabel2);
 
-        for(int i = 0; i < mLeftButtons.length; i++)
+        for (int i = 0; i < mLeftButtons.length; i++)
         {
-            if(mLeftButtons[i].getmBodyPartName().equals("Feet"))
+            if (mLeftButtons[i].getmBodyPartName().equals("Feet"))
             {
                 mLeftButtons[i].setmButton(new JButton("Feet"));
             }
 
-            if(mLeftButtons[i].getmBodyPartName().equals("Knee"))
+            if (mLeftButtons[i].getmBodyPartName().equals("Knee"))
             {
                 mLeftButtons[i].setmButton(new JButton("Knee"));
             }
 
-            if(mLeftButtons[i].getmBodyPartName().equals("Hip"))
+            if (mLeftButtons[i].getmBodyPartName().equals("Hip"))
             {
                 mLeftButtons[i].setmButton(new JButton("Hip"));
             }
 
-            if(mLeftButtons[i].getmBodyPartName().equals("Trunk"))
+            if (mLeftButtons[i].getmBodyPartName().equals("Trunk"))
             {
                 mLeftButtons[i].setmButton(new JButton("Trunk"));
             }
 
-            if(mLeftButtons[i].getmBodyPartName().equals("Hamstring"))
+            if (mLeftButtons[i].getmBodyPartName().equals("Hamstring"))
             {
                 mLeftButtons[i].setmButton(new JButton("Hamstring"));
             }
@@ -264,9 +264,9 @@ public class TherapyGuide extends JFrame implements ActionListener {
         int haCount = 0;
         int hsCount = 0;
 
-        for(int i = 0; i < mTherapyProcedureButtons.length; i++)
+        for (int i = 0; i < mTherapyProcedureButtons.length; i++)
         {
-            if(mTherapyProcedureButtons[i].getFeet()==true)
+            if (mTherapyProcedureButtons[i].getFeet()==true)
             {
                 BufferedImage mImage = null;
                 Image mImageScaled = null;
@@ -289,7 +289,7 @@ public class TherapyGuide extends JFrame implements ActionListener {
                 fCount++;
             }
 
-            if(mTherapyProcedureButtons[i].getKnee()==true)
+            if (mTherapyProcedureButtons[i].getKnee()==true)
             {
                 BufferedImage mImage = null;
                 Image mImageScaled = null;
@@ -312,7 +312,7 @@ public class TherapyGuide extends JFrame implements ActionListener {
                 kCount++;
             }
 
-            if(mTherapyProcedureButtons[i].getHip()==true)
+            if (mTherapyProcedureButtons[i].getHip()==true)
             {
                 BufferedImage mImage = null;
                 Image mImageScaled = null;
@@ -335,7 +335,7 @@ public class TherapyGuide extends JFrame implements ActionListener {
                 hCount++;
             }
 
-            if(mTherapyProcedureButtons[i].getTrunk()==true)
+            if (mTherapyProcedureButtons[i].getTrunk()==true)
             {
                 BufferedImage mImage = null;
                 Image mImageScaled = null;
@@ -358,7 +358,7 @@ public class TherapyGuide extends JFrame implements ActionListener {
                 tCount++;
             }
 
-            if(mTherapyProcedureButtons[i].getLeg()==true)
+            if (mTherapyProcedureButtons[i].getLeg()==true)
             {
                 BufferedImage mImage = null;
                 Image mImageScaled = null;
@@ -381,7 +381,7 @@ public class TherapyGuide extends JFrame implements ActionListener {
                 lCount++;
             }
 
-            if(mTherapyProcedureButtons[i].getHand()==true)
+            if (mTherapyProcedureButtons[i].getHand()==true)
             {
                 BufferedImage mImage = null;
                 Image mImageScaled = null;
@@ -404,7 +404,7 @@ public class TherapyGuide extends JFrame implements ActionListener {
                 haCount++;
             }
 
-            if(mTherapyProcedureButtons[i].getHamstring()==true)
+            if (mTherapyProcedureButtons[i].getHamstring()==true)
             {
                 BufferedImage mImage = null;
                 Image mImageScaled = null;
